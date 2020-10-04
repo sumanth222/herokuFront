@@ -17,7 +17,7 @@ import App1 from "./addQuestion";
 import App2 from "./test";
 import chatRoom from "./chat/chatRoom";
 import chatRoom1 from "./chat/chatRoom1";
-
+import videoConf from "./videoConf/videoConf";
 //import all the screens we are going to switch
 const App = createStackNavigator(
   {
@@ -33,8 +33,8 @@ const App = createStackNavigator(
     App2: {screen : App2,navigationOptions:{title: "Go back"}},
     webcm:{screen : webcm},
     chatRoom : {screen : chatRoom,navigationOptions:{title: "Leave chat"}},
-    chatRoom1 : {screen : chatRoom1,navigationOptions:{title: "Leave chat"}}
-
+    chatRoom1 : {screen : chatRoom1,navigationOptions:{title: "Leave chat"}},
+    videoConf : {screen:videoConf},
     //First entry by default be our first screen if we do not define initialRouteName
   },  
   {

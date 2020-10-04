@@ -46,6 +46,13 @@ export default class teacherDash extends Component {
           image: "https://img.icons8.com/cotton/64/000000/chat.png",
           nav: "chatRoom1",
         },   
+        {
+          id: 4,
+          title: "Start Live class",
+          color: "#e8ffc1",
+          image: "https://img.icons8.com/color/48/000000/youtube-live.png",
+          nav: "videoConf",
+        },   
       ],
     };
   }
